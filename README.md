@@ -23,5 +23,5 @@ I ran the tests using bash: "node callbackVersion.js" from the terminal window.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/summer-chores.git
+git clone https://github.com/TeriD/summer-chores.git
 cd summer-chores
