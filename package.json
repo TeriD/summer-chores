@@ -1,0 +1,20 @@
+{
+  "name": "summer-chores",
+  "version": "1.0.0",
+  "description": "This Code:You Module 3 Callback Assignment simulates a person completing summer chores with a chance of dozing off between tasks. This assignment helps demonstrate callback chaining, timing with `setTimeout`, and control flow in asynchronous JavaScript.",
+  "main": "callbackVersion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeriD/summer-chores.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeriD/summer-chores/issues"
+  },
+  "homepage": "https://github.com/TeriD/summer-chores#readme"
+}

@@ -1,6 +1,12 @@
-# 🧹 Summer-Chores
+# 🧹 Summer-Chores Part 1
 
 This Code:You Module 3 Callback Assignment simulates a person completing summer chores with a chance of dozing off between tasks. This assignment helps demonstrate callback chaining, timing with `setTimeout`, and control flow in asynchronous JavaScript.
+
+## Promise-Based Refactor
+
+In this second version of the summer chores simulation, the original callback-based functions have been refactored using JavaScript Promises. Each asynchronous task (e.g., mowing, weed eating, etc.) now returns a Promise that resolves upon successful completion or rejects if the individual "falls asleep" mid-task (simulated with a random chance).
+
+The `doSummerChores` function chains these promises, allowing for more readable and maintainable code compared to deeply nested callbacks.
 
 ## 📝 Description
 
@@ -17,11 +23,11 @@ Each chore (except mowing) has a **30% chance** of the person falling asleep and
 
 ---
 
-## 🚀 How to Run
-I ran the tests using bash: "node callbackVersion.js" from the terminal window.
-
-### 1. Clone the Repository
-
+## 🚀 How to Run - Original Callback task
 ```bash
-git clone https://github.com/TeriD/summer-chores.git
-cd summer-chores
+node callbackVersion.js
+
+## 🚀 How to Run - Promise Version
+```bash
+node promiseVersion.js
+
