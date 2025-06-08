@@ -8,6 +8,13 @@ In this second version of the summer chores simulation, the original callback-ba
 
 The `doSummerChores` function chains these promises, allowing for more readable and maintainable code compared to deeply nested callbacks.
 
+## Async/Await Version
+
+This version of the summer chores simulation refactors the original callback and Promise-based versions using `async/await`. This provides a cleaner, more readable structure for handling asynchronous tasks.
+
+Each chore function returns a Promise, and `doSummerChores` is now an `async` function that awaits the completion of each chore in order. Errors are handled using a `try...catch` block, which ensures that any failure (e.g., falling asleep mid-task) is caught and reported gracefully.
+
+
 ## 📝 Description
 
 Every Saturday, someone (like Joe) attempts to complete a set of summer chores. They follow a strict order of tasks, and while some are completed successfully, there's always a chance they might fall asleep from exhaustion along the way!
@@ -31,3 +38,6 @@ node callbackVersion.js
 ```bash
 node promiseVersion.js
 
+## 🚀 How to Run - AsyncAwait Version
+```bash
+node promiseVersion.js
